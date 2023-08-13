@@ -2,54 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/en/posts/tech/</loc>
-    <lastmod>2023-02-21T12:20:21+08:00</lastmod>
-  </url><url>
-    <loc>/en/posts/</loc>
-    <lastmod>2023-02-21T12:20:21+08:00</lastmod>
-  </url><url>
-    <loc>/en/posts/tech/tech1/</loc>
-    <lastmod>2023-02-21T12:20:21+08:00</lastmod>
-  </url><url>
-    <loc>/en/</loc>
-    <lastmod>2023-02-21T12:20:21+08:00</lastmod>
-  </url><url>
-    <loc>/en/tags/blog/</loc>
-    <lastmod>2022-05-05T00:18:23+08:00</lastmod>
-  </url><url>
-    <loc>/en/posts/blog/blog/</loc>
-    <lastmod>2022-05-05T00:18:23+08:00</lastmod>
-  </url><url>
-    <loc>/en/tags/</loc>
-    <lastmod>2022-05-05T00:18:23+08:00</lastmod>
-  </url><url>
-    <loc>/en/posts/blog/</loc>
-    <lastmod>2022-05-05T00:18:23+08:00</lastmod>
-  </url><url>
-    <loc>/en/tags/life/</loc>
-    <lastmod>2022-05-05T00:18:15+08:00</lastmod>
-  </url><url>
-    <loc>/en/posts/life/life/</loc>
-    <lastmod>2022-05-05T00:18:15+08:00</lastmod>
-  </url><url>
-    <loc>/en/posts/life/</loc>
-    <lastmod>2022-05-05T00:18:15+08:00</lastmod>
-  </url><url>
-    <loc>/en/posts/read/</loc>
-    <lastmod>2022-05-05T00:18:06+08:00</lastmod>
-  </url><url>
-    <loc>/en/tags/read/</loc>
-    <lastmod>2022-05-05T00:18:06+08:00</lastmod>
-  </url><url>
-    <loc>/en/posts/read/read/</loc>
-    <lastmod>2022-05-05T00:18:06+08:00</lastmod>
-  </url><url>
-    <loc>/en/tags/tech/</loc>
-    <lastmod>2022-05-05T00:17:58+08:00</lastmod>
-  </url><url>
-    <loc>/en/posts/tech/tech/</loc>
-    <lastmod>2022-05-05T00:17:58+08:00</lastmod>
-  </url><url>
     <loc>/en/links/</loc>
     <lastmod>2021-11-06T15:15:53+08:00</lastmod>
   </url><url>
@@ -58,10 +10,24 @@
   </url><url>
     <loc>/en/archives/</loc>
   </url><url>
+    <loc>/en/posts/study/</loc>
+  </url><url>
+    <loc>/en/posts/miscellanies/</loc>
+  </url><url>
+    <loc>/en/posts/soft/</loc>
+  </url><url>
+    <loc>/en/posts/</loc>
+  </url><url>
     <loc>/en/search/</loc>
   </url><url>
     <loc>/en/categories/</loc>
   </url><url>
     <loc>/en/series/</loc>
+  </url><url>
+    <loc>/en/</loc>
+  </url><url>
+    <loc>/en/posts/life/</loc>
+  </url><url>
+    <loc>/en/tags/</loc>
   </url>
 </urlset>
