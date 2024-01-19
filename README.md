@@ -90,7 +90,7 @@
 
 # 🐼 智能制造
 ## ☁️ VisionPro
-? > 🔊 本部分由 [苍茫误此生](https://cangmang.xyz) 提供，感谢博主的分享 🐝
+
 * **C#纯代码调用visionpro**
   * C#纯代码训练使用CogPMAlignTool
   * VisionPro+C#纯代码不使用VPP文件实例
