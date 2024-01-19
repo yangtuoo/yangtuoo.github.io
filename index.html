@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Yang-代码编年史</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -25,7 +25,7 @@
       loadSidebar: true,//开启侧边栏
       subMaxLevel: 2,   //目录最大级数
       auto2top: true,   //切换页面自动回到顶部
-
+      disqus: 'shortname',
       //添加搜索功能，中文和英文文档同时搜索
       search: {
         paths: 'auto',
@@ -44,12 +44,22 @@
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
       },//增加搜索框
 
-      footer: {
-        copy: 'Copyright &copy; 2021 💖 </span>',
-        auth: ' <strong>-相依s-</strong>',
-        pre: '<hr/>',
-        style: 'text-align: center;',
-      },
+      plugins: [
+    function(hook) {
+      var footer = [
+        '<hr/>',
+        '<footer>',
+        '<span><a href="https://github.com/yangtuoo?tab=repositories">代码库</a> &copy;2024.</span>',
+        '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
+        '</footer>'
+
+      ].join('');
+       
+      hook.afterEach(function(html) {
+        return html + footer;
+      });
+    }
+  ],
 
       copyCode: {
           buttonText: 'Copy',
@@ -59,14 +69,23 @@
 
       'flexible-alerts': {
         style: 'flat'
-      }
+      },
+      count:{
+    countable:true,
+    fontsize:'0.9em',
+    color:'rgb(90,90,90)',
+    language:'chinese'
+  },
 
 
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify"></script>
-
+   <!-- 评论插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
+  <!-- 字数统计插件 -->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
    <!-- 置顶插件 -->
    <script src="style/jquery-1.11.3.min.js"></script>
    <script src="style/jquery.toTop.min.js"></script>
@@ -104,12 +123,13 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-yaml.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-properties.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/matlab.min.js"></script>
-  <!-- 访问量统计 -->
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
   <!-- Markdown 引用样式美化 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min.js"></script>
 
   <!-- 图片缩放 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.js"></script>
+
+
 </body>
 </html>
