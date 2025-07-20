@@ -1,7 +1,7 @@
 ---
 title: Markdown
 tags:
-  - markdown
+  - Examples
 createTime: 2025/07/20 14:30:31
 permalink: /article/v80u7x8a/
 ---
@@ -22,7 +22,7 @@ permalink: /article/v80u7x8a/
 
 #### 标题4 Badge <Badge type="danger" text="Badge" />
 
-正文内容。
+正文内容
 
 `@property` CSS at-rule是 [CSS Houdini API](https://developer.mozilla.org/zh-CN/docs/Web/Guide/Houdini)
 的一部分，它允许开发者显式地定义他们的 [CSS 自定义属性](https://developer.mozilla.org/zh-CN/docs/Web/CSS/--*),
