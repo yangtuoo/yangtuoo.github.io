@@ -36,7 +36,7 @@ permalink: /article/6qzu78fp/
 
 :::
 
-### 2.正文格式
+### 2.通用格式
 
 ::: collapse
 - 链接
@@ -74,8 +74,9 @@ permalink: /article/6qzu78fp/
   内容居中
   
   ::: right
-  内容右对齐
+  内容右对齐  
   
+  ---(建议)
 
   ```
   示例:
@@ -90,6 +91,8 @@ permalink: /article/6qzu78fp/
   
   ::: right  
   内容右对齐  
+
+  ---
    
 - 行内代码
   ```markdown
@@ -142,12 +145,29 @@ permalink: /article/6qzu78fp/
   \- 减号  
   \. 英文句点  
   \! 惊叹号 
+- 列表  
+  ```markdown  
+  - 无序列表1  
+  - 无序列表2  
+  - 无序列表3  
 
+  1. 有序列表1  
+  2. 有序列表2  
+  3. 有序列表3  
 
-  
-### 3.列表格式 
+  - [ ] 任务列表1  
+  - [ ] 任务列表2  
+  - [x] 任务列表3  
+  - [x] 任务列表4  
 
-```markdown
+  | Tables        | Are           | Cool  |  
+  | ------------- |:-------------:| -----:|  
+  | col 3 is      | right-aligned | $1600 |  
+  | col 2 is      | centered      |   $12 |  
+  | zebra stripes | are neat      |    $1 |  
+  ```  
+ 
+  演示：
   - 无序列表1
   - 无序列表2
   - 无序列表3
@@ -166,27 +186,6 @@ permalink: /article/6qzu78fp/
   | col 3 is      | right-aligned | $1600 |
   | col 2 is      | centered      |   $12 |
   | zebra stripes | are neat      |    $1 |
-```
-::: collapse
-- 演示
-  - 无序列表1
-  - 无序列表2
-  - 无序列表3
 
-  1. 有序列表1
-  2. 有序列表2
-  3. 有序列表3
-
-  - [ ] 任务列表1
-  - [ ] 任务列表2
-  - [x] 任务列表3
-  - [x] 任务列表4
-
-  | Tables        | Are           | Cool  |
-  | ------------- |:-------------:| -----:|
-  | col 3 is      | right-aligned | $1600 |
-  | col 2 is      | centered      |   $12 |
-  | zebra stripes | are neat      |    $1 |
-
-
+ ### 3.扩展格式 
 
