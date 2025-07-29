@@ -446,8 +446,84 @@ permalink: /article/ACexamples/
    - 在代码块 <code>\`\`\` lang</code> 后使用 `title="filepath"` 声明当前代码块的文件路径  
    - 如果在 `::: code-tree` 未声明 `entry="filepath"`，可以在代码块 <code>\`\`\` lang</code> 后使用 `:active` 声明当前代码块为展开状态
    - 如果未指定展开的文件路径，默认展开第一个文件  
+- 代码示例
+   **输入：**
 
+   ````md :collapsed-lines
+   ::: code-tree title="Vue App" height="400px" entry="src/main.ts"
+   ```vue title="src/components/HelloWorld.vue"
+   <template>
+   <div class="hello">
+      <h1>Hello World</h1>
+   </div>
+   </template>
+   ```
 
+   ```vue title="src/App.vue"
+   <template>
+   <div id="app">
+      <h3>vuepress-theme-plume</h3>
+      <HelloWorld />
+   </div>
+   </template>
+   ```
+
+   ```ts title="src/main.ts"
+   import { createApp } from 'vue'
+   import App from './App.vue'
+
+   createApp(App).mount('#app')
+   ```
+
+   ```json title="package.json"
+   {
+   "name": "Vue App",
+   "scripts": {
+      "dev": "vite"
+   }
+   }
+   ```
+   :::
+   ````
+
+   **输出：**
+
+   ::: code-tree title="Vue App" height="400px" entry="src/main.ts"
+
+   ```vue title="src/components/HelloWorld.vue"
+   <template>
+   <div class="hello">
+      <h1>Hello World</h1>
+   </div>
+   </template>
+   ```
+
+   ```vue title="src/App.vue"
+   <template>
+   <div id="app">
+      <h3>vuepress-theme-plume</h3>
+      <HelloWorld />
+   </div>
+   </template>
+   ```
+
+   ```ts title="src/main.ts"
+   import { createApp } from 'vue'
+   import App from './App.vue'
+
+   createApp(App).mount('#app')
+   ```
+
+   ```json title="package.json"
+   {
+   "name": "Vue App",
+   "scripts": {
+      "dev": "vite"
+   }
+   }
+   ```
+
+   :::
 
 
 
